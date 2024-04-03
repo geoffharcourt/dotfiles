@@ -202,7 +202,7 @@ noremap g# g#<Cmd>lua require('hlslens').start()<CR>
 ""
 
 let test#ruby#minitest#executable = "bundle exec rake test"
-let g:test#javascript#runner = 'jest'
+" let g:test#javascript#runner = 'vitest'
 let test#strategy = "dispatch"
 let test#runner_commands = ['RSpec']
 
