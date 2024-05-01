@@ -295,14 +295,6 @@ let g:rails_projections = {
 let g:python_host_prog = $HOME."/.asdf/shims/python2"
 let g:python3_host_prog = $HOME."/.asdf/shims/python3"
 
-
-""
-" Copilot
-""
-
-imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
-let g:copilot_no_tab_map = v:true
-
 ""
 " Command line
 ""
